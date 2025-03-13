@@ -25,7 +25,7 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
 
 ---
 
-## Instalação
+## Passo a Passo
 
 1. **Clone ou baixe este repositório**:
 
