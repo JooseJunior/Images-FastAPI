@@ -25,7 +25,7 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
 
 ---
 
-## Passo a Passo
+## Instruções
 
 1. **Clone ou baixe este repositório**:
 
@@ -35,20 +35,38 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
 2. **Ambiente Virtual**:
    ```bash
    python -m venv venv
+
+3. **Ativando ambiente virtual**:
+   ```bash
    venv\Scripts\activate
 
-3. **Instalação de Dependências**:
+4. **Instalação de Dependências**:
    ```bash
    pip install -r requirements.txt
 
-4. **Execução da aplicação**:
+## Executando aplicação via Documentação
+
+5. **Execução da aplicação**:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-4. **Teste via documentação Swagger**:
+6. **Teste via documentação Swagger**:
     * Abra http://127.0.0.1:8000/docs no navegador.
     * Localize o endpoint POST /detect/.
     * Clique em Try it out.
     * Clique em Choose file e selecione uma imagem (por exemplo, imagem.jpg ou imagem.png).
     * Clique em Execute.
-    * Se tudo estiver correto, a resposta será a imagem processada (em bytes). No Swagger, ela aparecerá em base64.
+    * Se tudo estiver correto, a resposta será a imagem processada.
+
+## Executando aplicação via Streamlit
+
+7. **Execução da aplicação**:
+   ```bash
+   streamlit run app_streamlit.py
+
+8. **Teste via Streamlit**:
+    * Abra http://localhost:8501/ no navegador.
+    * Selecione a imagem
+    * Caso deseje alterar o nivel de confiança e versão do modelo Yolo, pode alterar (opcional).
+    * Clique em Detectar Objetos
+    * Se tudo estiver correto, a resposta será a imagem processada.
