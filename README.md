@@ -1,5 +1,7 @@
 # API de Detecção de Objetos com FastAPI & YOLO
 
+Link: https://github.com/JooseJunior/Images-FastAPI
+
 Este projeto demonstra como criar uma API que recebe imagens, faz a detecção de objetos utilizando um modelo YOLO (via biblioteca [ultralytics](https://github.com/ultralytics/ultralytics)) e retorna a imagem processada com bounding boxes destacadas.
 
 ---
@@ -30,7 +32,7 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
 1. **Clone ou baixe este repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/JooseJunior/Images-FastAPI
 
 2. **Ambiente Virtual**:
    ```bash
