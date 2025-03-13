@@ -33,6 +33,7 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. **Ambiente Virtual**:
+   ```bash
    python -m venv venv
    venv\Scripts\activate
 
@@ -40,15 +41,14 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
    ```bash
    pip install -r requirements.txt
 
-
 4. **Execução da aplicação**:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 4. **Teste via documentação Swagger**:
-    Abra http://127.0.0.1:8000/docs no navegador.
-    Localize o endpoint POST /detect/.
-    Clique em Try it out.
-    Clique em Choose file e selecione uma imagem (por exemplo, imagem.jpg ou imagem.png).
-    Clique em Execute.
-    Se tudo estiver correto, a resposta será a imagem processada (em bytes). No Swagger, ela aparecerá em base64.
+    * Abra http://127.0.0.1:8000/docs no navegador.
+    * Localize o endpoint POST /detect/.
+    * Clique em Try it out.
+    * Clique em Choose file e selecione uma imagem (por exemplo, imagem.jpg ou imagem.png).
+    * Clique em Execute.
+    * Se tudo estiver correto, a resposta será a imagem processada (em bytes). No Swagger, ela aparecerá em base64.
