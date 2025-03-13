@@ -34,9 +34,11 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
 
 2. **Ambiente Virtual**:
    Instalando o ambiente:
+    ```bash
    python -m venv venv
 
-   Realizar sua ativação: 
+   Realizar sua ativação:
+   ```bash
    venv\Scripts\activate
 
 3. **Instalação de Dependências**:
