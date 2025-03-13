@@ -33,12 +33,7 @@ Este projeto demonstra como criar uma API que recebe imagens, faz a detecção d
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. **Ambiente Virtual**:
-   Instalando o ambiente:
-    ```bash
    python -m venv venv
-
-   Realizar sua ativação:
-   ```bash
    venv\Scripts\activate
 
 3. **Instalação de Dependências**:
